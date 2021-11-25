@@ -22,7 +22,7 @@
 
             // Javascript코드
             function daumClick() {
-                // 다음 링크의 DOm을 얻어온다.
+                // 다음 링크의 DOM을 얻어온다.
                 var daum = document.getElementById("daum");
                 alert(daum.href);
             }
@@ -63,7 +63,7 @@
                 $('#btn3').click(function(){
                     var tx = $(".kosmo").get(3);
                     /*
-                    get()을 통해 얻어온 DOm객체는 jQuery의 함수를 사용할 수 없다.
+                    get()을 통해 얻어온 DOM객체는 jQuery의 함수를 사용할 수 없다.
                     text() : JS의 innerText의 동일한 역할의 함수이다.
                     */
                     console.log(tx.text()); // 에러발생
